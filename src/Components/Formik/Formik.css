@@ -1,0 +1,61 @@
+.formik {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.formik-input {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 7px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgb(232 240 254);
+    font-size: 16px;
+}
+
+.formik-input-error {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 7px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid rgb(237, 2, 2);
+    background-color: rgb(232 240 254);
+    font-size: 16px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(75, 75, 236);
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.submit-btn:hover {
+    background-color: #3333ed;
+}
+
+.submit-btn:active {
+    color: black;
+    background-color: #3333ed78;
+}
+
+.error-message {
+    color: red;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
